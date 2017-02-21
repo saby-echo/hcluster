@@ -1,0 +1,25 @@
+{
+  "name": "ts-hcluster",
+  "version": "1.0.0",
+  "description": "Hierarchical Clustering",
+  "repository": "saby-echo/hcluster",
+  "main": "lib/index",
+  "scripts": {
+    "prepublish": "npm test",
+    "build": "rimraf lib && tsc",
+    "test": "npm run build && ava lib/spec.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "Sabyasachi Bhattacharjee<saby-echo@github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "rimraf": "^2.6.0",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "ts-binary-heap": "^1.0.2"
+  }
+}
