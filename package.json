@@ -1,9 +1,10 @@
 {
   "name": "ts-hcluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hierarchical Clustering",
   "repository": "saby-echo/hcluster",
   "main": "lib/index",
+  "types": "lib/index",
   "scripts": {
     "prepublish": "npm test",
     "build": "rimraf lib && tsc",
